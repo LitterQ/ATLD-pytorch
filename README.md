@@ -34,8 +34,11 @@ sh ./fs_eval_imt_cifar10.sh  # for evaluation with proposed IMT
 
 ### Reference Model
 A reference model trained on CIFAR-10 is here.
+
 A reference model trained on CIFAR-100 is here.
+
 A reference model trained on SVHN is here.
+
 
 
 ## Reference
