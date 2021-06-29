@@ -32,5 +32,11 @@ sh ./fs_eval_cifar10.sh      # for standard evaluation
 sh ./fs_eval_imt_cifar10.sh  # for evaluation with proposed IMT
 ```
 
+### Reference Model
+A reference model trained on CIFAR-10 is here.
+A reference model trained on CIFAR-100 is here.
+A reference model trained on SVHN is here.
+
+
 ## Reference
 Haichao Zhang and JianyuWang. Defense against adversarial attacks using feature scattering-based adversarial training. In Advances in Neural Information Processing Systems, pp. 1829–1839, 2019.
