@@ -28,8 +28,10 @@ Specify the path to the trained models to be evaluated in ```fs_eval.sh``` and t
 ``` param: --init_model_pass: The load number of checkpoint, Possible values: `latest` for the last checkpoint, `199` for checkpoint-199 ``` 
 ```param: --attack_method_list: The attack list for evaluation, Possible values: `natural` for natural data, `fgsm`, `pgd`, `cw` ```
 ```
-sh ./fs_eval_cifar10.sh      # for standard evaluation
-sh ./fs_eval_imt_cifar10.sh  # for evaluation with proposed IMT
+sh ./fs_eval_cifar10.sh      # for standard evaluation (ATLD-)
+sh ./fs_eval_imt_cifar10.sh  # for evaluation with proposed IMT (ATLD+)
+
+(For ATLD test, simply comment the line 168-171 in attack_methods_new_imt_cifar10.py on CIFAR-10)
 ```
 
 ### Reference Model
