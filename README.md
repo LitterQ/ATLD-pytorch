@@ -32,7 +32,7 @@ sh ./fs_eval_cifar10.sh      # for standard evaluation (ATLD-)
 sh ./fs_eval_imt_cifar10.sh  # for evaluation with proposed IMT (ATLD+)
 
 ```
-(For ATLD test, for example on CIFAR-10, simply comment the line 168-171 in attack_methods_new_imt_cifar10.py, then sh ./fs_eval_imt_cifar10.sh the output accuracy is changed from ATLD+ to ATLD)
+(For ATLD test, for example on CIFAR-10, simply comment the line 168-171 in attack_methods_new_imt_cifar10.py, then sh ./fs_eval_imt_cifar10.sh, the output accuracy will be changed from ATLD+ to ATLD)
 
 ### Reference Model
 A reference model trained on CIFAR-10 is [here](https://drive.google.com/file/d/18NOtz_z29iMKdv92xTkXhZLVeCvg0N_o/view?usp=sharing).
