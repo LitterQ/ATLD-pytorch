@@ -29,7 +29,7 @@ Specify the path to the trained models to be evaluated in ```fs_eval.sh``` and t
 ```param: --attack_method_list: The attack list for evaluation, Possible values: `natural` for natural data, `fgsm`, `pgd`, `cw` ```
 ```
 sh ./fs_eval_cifar10.sh      # for standard evaluation (ATLD-)
-sh ./fs_eval_imt_cifar10.sh  # for evaluation with proposed IMT (ATLD+)
+sh ./fs_eval_imt_cifar10.sh  # for evaluation with the proposed IMT (ATLD+)
 
 ```
 (For ATLD test, for example on CIFAR-10, simply comment the line 168-171 in attack_methods_new_imt_cifar10.py, then sh ./fs_eval_imt_cifar10.sh, the output accuracy will be changed from ATLD+ to ATLD)
